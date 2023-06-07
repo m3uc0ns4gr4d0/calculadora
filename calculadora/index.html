@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora Digital</title>
+   </head>
+  <body> 
+    <form action="">
+      <fieldset class="fieldset">
+        <div class="corpo-calculadora">
+          <h1>Calculadora digital</h1>
+          <b><h3>aproveite!</h3></b>
+          <select name="selecione o motivo" class="select">
+            <option value="soma">soma</option>
+            <option value="subtração">subtração</option>
+            <option value="divisão">divisão</option>
+            <option value="multiplicação">multiplicação</option>
+          </select>
+          <b
+            ><input
+              type="number"
+              class="input1"
+              id="número1"
+              placeholder="número 1"
+          /></b>
+          <b
+            ><input
+              type="number"
+              class="input2"
+              id="número2"
+              placeholder="número 2"
+          /></b>
+          <b
+            ><input
+              type="number"
+              class="input3"
+              id="resultado"
+              placeholder="resultado"
+              disabled=""
+          /></b>
+          <div>
+            <button type="submit" class="botão">enviar</button>
+            <button type="submit" class="botão">clear</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
